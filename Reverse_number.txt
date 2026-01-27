@@ -1,0 +1,8 @@
+rev=0 
+n=int(input("Enter a number: "))
+org=n
+while n>0:
+    d=n%10
+    rev=rev*10+d
+    n//=10
+print(f"Original number: {org} , Reversed: {rev}")
