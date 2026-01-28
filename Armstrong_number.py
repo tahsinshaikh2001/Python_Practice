@@ -1,0 +1,12 @@
+n=int(input("Enter a number : "))
+
+rev=0
+org=n
+while n>0:
+    d=n%10
+    rev=rev+d**3
+    n=n//10
+if org==rev:
+    print("Armstrong")
+else:
+    print("Not an Armstrong")
