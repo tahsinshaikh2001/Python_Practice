@@ -1,4 +1,4 @@
-nums = [10, 45, 32, 67, 89, 89]
+
 nums=list(map(int , input("enter number : ").split()))
 largest = second = float('-inf')
 
