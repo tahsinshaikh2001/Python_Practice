@@ -1,6 +1,0 @@
-n=(input("Enter a string : "))
-# print(n[::-1])
-rev=""
-for ch in n:
-    rev=ch+rev
-print(rev)
