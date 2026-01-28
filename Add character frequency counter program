@@ -1,0 +1,36 @@
+This Python program counts the frequency of each character in a user-provided string. It demonstrates the use of dictionaries and loops to store and update counts dynamically.
+
+**Features**
+
+Takes string input from the user.
+
+Counts the number of times each character appears.
+
+Works for letters, numbers, spaces, and special characters.
+
+Prints the frequency in dictionary format.
+
+
+n = input("Enter here: ")
+f = {}
+for i in n:
+    if i in f:
+        f[i] += 1
+    else:
+        f[i] = 1
+print(f)
+
+
+**How It Works**
+
+The user inputs a string.
+
+An empty dictionary is created to store character counts.
+
+The program loops through each character in the string:
+
+If the character already exists in the dictionary, its count is increased by 1.
+
+If it is the first occurrence, it is added to the dictionary with a count of 1.
+
+Finally, the program prints the dictionary with all character frequencies.
